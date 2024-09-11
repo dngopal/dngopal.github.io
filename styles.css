@@ -107,6 +107,21 @@ section {
 .hidden {
     display: none; /* Hide elements with this class */
 }
+/* Feedback message styles */
+#feedback {
+    margin-top: 10px; /* Space above feedback */
+    font-size: 1.2em; /* Larger font size */
+    font-weight: bold; /* Bold text */
+}
+
+.correct {
+    color: green; /* Color for correct answers */
+}
+
+.incorrect {
+    color: red; /* Color for incorrect answers */
+}
+
 
 /* Footer styles */
 footer {
