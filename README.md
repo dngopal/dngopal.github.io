@@ -4,5 +4,5 @@ I’m a current Stanford student interested in the intersection of technology an
 
 In my free time, I love reading (I have a soft spot for fantasy novels!), listening to music, and delving into puzzles/riddles. 
 
-I love meeting new people! Connect with me on [Linkedin]([https://www.linkedin.com/in/dev-gopal]) and at devgopal@stanford.edu
+I love meeting new people! Connect with me on [LinkedIn](https://www.linkedin.com/in/dev-gopal) and at devgopal@stanford.edu
 
