@@ -1,6 +1,6 @@
 # Hi! My name is Dev - nice to meet you!
 
-Check out my personal website at [devgopal.me](https://www.devgopal.me) or dngopal.github.io. 
+Check out my personal website at [devgopal.me](https://www.dngopal.github.io) or dngopal.github.io. 
 
 I’m a current Stanford student interested in the intersection of technology and healthcare, especially to create a more equitable world. 
 
