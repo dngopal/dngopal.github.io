@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mainHeader.style.opacity = '1';
             mainContent.style.opacity = '1';
         }, 1000); // Match this duration with the CSS transition duration
-    }, 3000); // Duration for how long the intro is displayed (3 seconds)
+    }, 2000); // Duration for how long the intro is displayed (3 seconds)
 });
 
 // Smooth scrolling to sections
