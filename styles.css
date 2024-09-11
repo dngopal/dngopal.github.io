@@ -76,6 +76,38 @@ section {
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Quiz section styles */
+#quiz {
+    margin: 20px 0; /* Margin around the quiz section */
+    padding: 20px; /* Padding inside the quiz section */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.btn-container {
+    display: flex; /* Use flexbox for button layout */
+    flex-direction: column; /* Stack buttons vertically */
+}
+
+.btn {
+    background-color: #6e7f80; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside buttons */
+    margin: 5px 0; /* Margin between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.btn:hover {
+    background-color: #5a6b6c; /* Darker shade on hover */
+}
+
+.hidden {
+    display: none; /* Hide elements with this class */
+}
+
 /* Footer styles */
 footer {
     text-align: center; /* Center the footer text */
