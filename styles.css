@@ -19,6 +19,7 @@
 .hidden {
     opacity: 0; /* Fully transparent */
     pointer-events: none; /* Prevent interaction */
+    transition: opacity 1s ease; /* Ensure transition is applied */
 }
 
 /* Main content styles */
@@ -26,6 +27,7 @@
     opacity: 0; /* Start hidden */
     transition: opacity 1s ease; /* Transition for fade in */
 }
+
 
 /* Reset some default styles */
 * {
