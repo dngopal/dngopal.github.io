@@ -84,6 +84,7 @@ const nextButton = document.getElementById('next-button');
 const resultContainer = document.getElementById('result');
 const scoreElement = document.getElementById('score');
 const restartButton = document.getElementById('restart-button');
+const feedbackElement = document.getElementById('feedback'); // Feedback element
 
 // Start the quiz
 function startQuiz() {
@@ -92,6 +93,7 @@ function startQuiz() {
     nextButton.classList.add('hidden');
     resultContainer.classList.add('hidden');
     questionContainer.classList.remove('hidden');
+    feedbackElement.classList.add('hidden'); // Hide feedback
     showQuestion(questions[currentQuestionIndex]);
 }
 
@@ -110,8 +112,14 @@ function showQuestion(question) {
 
 // Handle answer selection
 function selectAnswer(answer) {
+    feedbackElement.classList.remove('hidden'); // Show feedback
     if (answer.correct) {
         score++;
+        feedbackElement.innerText = "Correct!"; // Correct answer feedback
+        feedbackElement.classList.add('correct'); // Add correct class
+    } else {
+        feedbackElement.innerText = "Incorrect!"; // Incorrect answer feedback
+        feedbackElement.classList.add('incorrect'); // Add incorrect class
     }
     nextButton.classList.remove('hidden');
 }
@@ -119,6 +127,7 @@ function selectAnswer(answer) {
 // Show next question or results
 nextButton.addEventListener('click', () => {
     currentQuestionIndex++;
+    feedbackElement.classList.add('hidden'); // Hide feedback for the next question
     if (currentQuestionIndex < questions.length) {
         showQuestion(questions[currentQuestionIndex]);
     } else {
