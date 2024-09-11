@@ -64,3 +64,27 @@ a {
 a:hover {
     text-decoration: underline; /* Underline on hover */
 }
+
+nav {
+    margin-top: 20px; /* Space between header and nav */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+nav li {
+    display: inline; /* Display links inline */
+    margin: 0 15px; /* Space between links */
+}
+
+nav a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
