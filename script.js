@@ -36,30 +36,39 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Quiz questions
 const questions = [
     {
-        question: "What is the capital of France?",
+        question: "Take my quiz––I DARE you. Are you ready?",
         answers: [
-            { text: "Berlin", correct: false },
-            { text: "Madrid", correct: false },
-            { text: "Paris", correct: true },
-            { text: "Lisbon", correct: false }
+            { text: "YES - ALWAYS!", correct: true },
+            { text: "NO, NEVER!", correct: false }
         ]
     },
     {
-        question: "Which planet is known as the Red Planet?",
+        question: "Which of the following describes Dev Gopal?",
         answers: [
-            { text: "Earth", correct: false },
-            { text: "Mars", correct: true },
-            { text: "Jupiter", correct: false },
-            { text: "Saturn", correct: false }
+            { text: "Global hacakthon winner", correct: false },
+            { text: "Stanford student", correct: false },
+            { text: "Passionate developer with deep understanding across end-to-end development", correct: false },
+            { text: "All of the above", correct: true },
+            { text: "None of the above", correct: false },
         ]
     },
     {
-        question: "What is the largest ocean on Earth?",
+        question: "Which of the following can Dev NOT use?",
         answers: [
-            { text: "Atlantic Ocean", correct: false },
-            { text: "Indian Ocean", correct: false },
-            { text: "Arctic Ocean", correct: false },
-            { text: "Pacific Ocean", correct: true }
+            { text: "HTML/CSS", correct: false },
+            { text: "Assembly Code", correct: true },
+            { text: "Python", correct: false },
+            { text: "SQL", correct: false }
+            { text: "Java", correct: false }
+        ]
+    },
+    {
+        question: "What MINDSET does Dev believe in and use daily?",
+        answers: [
+            { text: "Defeatism", correct: false },
+            { text: "FIXED mindset", correct: false },
+            { text: "Nihilism", correct: false },
+            { text: "GROWTH mindset", correct: true }
         ]
     }
 ];
