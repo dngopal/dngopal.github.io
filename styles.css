@@ -1,3 +1,32 @@
+/* Intro section styles */
+#intro {
+    position: fixed; /* Fix the intro section to the viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #6e7f80; /* Background color for the intro */
+    color: white; /* Text color */
+    display: flex; /* Center content */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    opacity: 1; /* Fully visible */
+    transition: opacity 1s ease; /* Transition for fade out */
+}
+
+/* Hidden class to hide elements */
+.hidden {
+    opacity: 0; /* Fully transparent */
+    pointer-events: none; /* Prevent interaction */
+}
+
+/* Main content styles */
+#main-header, #main-content {
+    opacity: 0; /* Start hidden */
+    transition: opacity 1s ease; /* Transition for fade in */
+}
+
 /* Reset some default styles */
 * {
     margin: 0;
