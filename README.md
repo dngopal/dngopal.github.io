@@ -1,4 +1,4 @@
-# Hi! My Name is Dev. It's Nice to Meet You!
+# Hi! My name is Dev - nice to meet you!
 
 I’m a current Stanford student interested in the intersection of technology and healthcare, especially to create a more equitable world. 
 
