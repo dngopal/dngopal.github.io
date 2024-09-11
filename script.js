@@ -36,7 +36,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 // Quiz questions
 const questions = [
     {
-        question: "Take my quiz––I DARE you. Are you ready?",
+        question: "Are you ready?",
         answers: [
             { text: "YES - ALWAYS!", correct: true },
             { text: "NO, NEVER!", correct: false }
